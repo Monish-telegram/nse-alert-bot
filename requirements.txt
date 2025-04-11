@@ -1,2 +1,4 @@
-requests
+fastapi
+uviocorn
 gunicorn
+requests
