@@ -34,6 +34,8 @@ def check_rss():
     except Exception as e:
         print(f"Error fetching or sending update: {e}")
 
+send_telegram_message("✅ Test Alert: This is a simulated earnings release.")
+
 while True:
     check_rss()
     time.sleep(120)
